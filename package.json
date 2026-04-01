@@ -36,6 +36,7 @@
     "prepare": "simple-git-hooks"
   },
   "devDependencies": {
+    "@antfu/ni": "^30.0.0",
     "@ghettoddos/oxlint-config": "^0.0.2",
     "@types/node": "^25.5.0",
     "@typescript/native-preview": "7.0.0-dev.20260401.1",
