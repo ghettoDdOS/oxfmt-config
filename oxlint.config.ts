@@ -1,9 +1,10 @@
+import type { OxlintConfig } from 'oxlint'
+
 import { factory } from '@ghettoddos/oxlint-config'
 
-export default factory({
+const config: OxlintConfig = factory({
   typescript: { typeAware: true },
   type: 'lib',
-  jsxA11y: false,
   overrides: [
     {
       files: ['src/**/*.ts'],
@@ -11,3 +12,5 @@ export default factory({
     },
   ],
 })
+
+export default config
